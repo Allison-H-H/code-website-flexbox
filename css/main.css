@@ -125,20 +125,20 @@ main {
 header,
 footer,
 main {
-   align-content: center;
+   align-items: center;
    display: flex;
    justify-content: center;
 }
 
 .flex-container {
-  align-content: center;
+  align-items: center;
   display: flex;
-  justify-content: center;
-
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .flex-items {
-  align-content: center;
+  align-items: center;
   background-color: #f16059;
   color: #fff;
   display: flex;
